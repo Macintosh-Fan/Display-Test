@@ -84,6 +84,15 @@ public class Main {
                     }
                     case 'q' -> frame.dispose();
                 }
+
+                for (JLabel titleLabel : titleLabels) {
+                    if (panel.getBackground() == Color.BLUE || panel.getBackground() == Color.BLACK) {
+                        titleLabel.setForeground(Color.WHITE);
+                    } else {
+                        titleLabel.setForeground(Color.BLACK);
+                    }
+                }
+
             }
 
             /**
