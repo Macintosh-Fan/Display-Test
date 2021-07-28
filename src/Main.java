@@ -40,7 +40,6 @@ public class Main {
                 new JLabel("Press 'n' for black"),
                 new JLabel("Press 'h' to hide/show text"),
                 new JLabel("Press 'q' to quit"),
-                new JLabel("Custom sliders below for custom colours (to be added in the future)")
         };
 
         for (int i = 0, j = 0; i < titleLabels.length; i++, j += 30) {
