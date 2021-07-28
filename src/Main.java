@@ -17,7 +17,7 @@ public class Main {
      * @param args Does nothing
      */
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("Display Test");
         JPanel panel = new JPanel();
         Dimension displaySize = Toolkit.getDefaultToolkit().getScreenSize();
         int windowWidth = displaySize.width / 2;
@@ -32,7 +32,7 @@ public class Main {
         panel.setSize(windowWidth, windowHeight);
 
         JLabel[] titleLabels = {
-                new JLabel("Display test"),
+                new JLabel("Display Test"),
                 new JLabel("Press 'r' for red"),
                 new JLabel("Press 'g' for green"),
                 new JLabel("Press 'b' for blue"),
