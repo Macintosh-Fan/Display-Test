@@ -24,8 +24,8 @@ public class Main {
         int windowHeight = displaySize.height / 2;
         text = true;
 
-        frame.setSize(windowWidth, windowHeight);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(windowWidth, windowHeight);
         frame.add(panel);
 
         panel.setLayout(null);
